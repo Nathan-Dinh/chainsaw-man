@@ -1,0 +1,51 @@
+
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    min-width: 700px;
+    min-height:550px;
+    border: 5px solid var(--yellow-pantone);
+  }
+
+  .Container-Two.Header{
+    font-size: 2em;
+  }
+
+  .Main-Container.Three li{
+    color: var( --yellow-pantone);
+    text-shadow: black 1px 1px;
+    padding: 10px 0;
+    font-size: 2em;
+  }
+  
+  .Main-Container.Three h1{
+    color:  var(--catawba);
+    padding: 10px 0;
+  }
+  a{
+    color: var(--catawba);
+  }
+
+  a:hover{
+    color: var(--yellow-pantone);
+  }
+
+h2
+{
+  margin: 1em 0;
+}
+
+  .Main-Container.Three {
+    width: 30em;
+    font-size: large;
+  }
+
+
+  @media (min-width:1800px) {
+
+    .responsive-iframe {
+        min-width: 78.1em;
+        min-height: 50em;
+       
+      }
+    
+  }
